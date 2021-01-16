@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e8e7e5"
+    android:orientation="vertical"
+    tools:context=".InstructionsActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:padding="30dp"
+        android:text="Instructions"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:padding="5dp"
+        android:text="In each turn, a player flips a card, thus having one category, and three letters. Only one of the letters has a color that matches the color of the category.\n\nThe first player that calls out loud a relevant word that starts with the correct letter wins a point.\n\nWhen only one card is left the game is over. The player who collected the highest number of points wins the game."
+        android:textSize="20dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:onClick="backClick"
+        android:padding="10dp"
+        android:text="Back"
+        android:textAllCaps="false"
+        android:textSize="20dp" />
+</LinearLayout>

@@ -1,0 +1,2 @@
+rootProject.name='Virdi_SpeedyWords'
+include ':app'
