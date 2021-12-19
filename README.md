@@ -1,2 +1,2 @@
 # speedy-words
-Multiplayer card game.
+Multiplayer card game for android.
